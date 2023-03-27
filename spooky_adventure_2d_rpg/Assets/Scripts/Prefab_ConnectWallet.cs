@@ -69,7 +69,6 @@ public class Prefab_ConnectWallet : MonoBehaviour
     public GameObject playWithoutWalletButton;
 
     // Network Switching
-    public GameObject networkSwitchButton;
     public GameObject networkDropdown;
     public GameObject networkButtonPrefab;
     public List<NetworkSprite> networkSprites;
@@ -109,7 +108,6 @@ public class Prefab_ConnectWallet : MonoBehaviour
         connectDropdown.SetActive(false);
         connectedDropdown.SetActive(false);
 
-        networkSwitchButton.SetActive(supportSwitchingNetwork);
         networkDropdown.SetActive(false);
     }
 

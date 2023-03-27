@@ -34,9 +34,6 @@ public class PlayerController : MonoBehaviour
 
             if(input != Vector2.zero)
             {
-                Debug.Log("Input.x: " + input.x);
-                Debug.Log("Input.y: " + input.y);
-
                 animator.SetFloat("moveX", input.x);
                 animator.SetFloat("moveY", input.y);
 
